@@ -3,7 +3,7 @@ html {
 }
 
 body {
-    background: url('/media/crypto-wallet-home.png') no-repeat center center fixed;
+    background: url('/media/crypto-home.jpeg') no-repeat center center fixed;
     background-size: cover;
     height: calc(100vh - 164px);
     color: #555;
@@ -28,13 +28,13 @@ body {
 }
 
 .shop-now-button {
-    background: black;
+    background: #47c2be;
     color: white;
     min-width: 260px;
 }
 
 .btn-black {
-    background: black;
+    background: #47c2be;
     color: white;
 }
 
@@ -49,7 +49,7 @@ body {
 }
 
 .text-black {
-    color: #000 !important;
+    color: black !important;
 }
 
 .border-black {
