@@ -28,13 +28,13 @@ body {
 }
 
 .shop-now-button {
-    background: #47c2be;
+    background: black;
     color: white;
-    min-width: 260px;
+    min-width: 10px;
 }
 
 .btn-black {
-    background: #47c2be;
+    background: black;
     color: white;
 }
 
@@ -49,12 +49,13 @@ body {
 }
 
 .text-black {
-    color: black !important;
+    color: #000 !important;
 }
 
 .border-black {
     border: 1px solid black !important;
 }
+
 
 /* -------------------------------- Media Queries */
 
