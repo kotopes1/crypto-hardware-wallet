@@ -150,12 +150,70 @@ Getting Started:
 --- 
 * Create a repository in [github](https://docs.github.com/en/get-started/quickstart/create-a-repo) with the desired name of your App or project.
 
-* Once your github repository is created, click the green Gitpod [button.](https://github.com/Flow-matic/Crypto-Price-App/blob/main/assets/images/gitpod%20workspace.png?raw=true) This will automatically start creating your workspace environment.
+* Once your github repository is created, click the green Gitpod [button.](https://github.com/Flow-matic/crypto-hardware-wallet/blob/main/media/gitpod%20button.png?raw=true) This will automatically start creating your workspace environment.
 
 * [Gitpod](https://www.gitpod.io/) environment is used to write your code for your App then gets pushed to Github.
-Setting up a Django working environment
+
+<br>
+
+### Setting up a Django working environment
+---
 
 * [Django](https://developer.mozilla.org/en-US/docs/Learn/Server-side/Django/Introduction) makes it very easy to set up your own computer so that you can start developing web applications.
+
+    * After you’ve created and activated a virtual environment, enter the command [pip install Django](https://docs.djangoproject.com/en/1.8/topics/install/) at the shell prompt.
+
+    * Creating a project, From the command line, cd into a directory where you’d like to store your code, then run the following command: $ django-admin startproject mysite ⬅ (name of your website/app).
+
+    *  These files will be created in your project folder.
+
+       * The outer mysite/ root directory is a container for your project. Its name doesn’t matter to Django; you can rename it to anything you like.
+
+       * manage.py: A command-line utility that lets you interact with this Django project in various ways. You can read all the details about manage.py in [django-admin and manage.py](https://docs.djangoproject.com/en/4.1/ref/django-admin/).
+
+       * The inner mysite/ directory is the actual Python package for your project. Its name is the Python package name you’ll need to use to import anything inside it (e.g. mysite.urls).
+
+       * mysite/__init__.py: An empty file that tells Python that this directory should be considered a Python package. If you’re a Python beginner, read more about packages in the [official Python docs](https://docs.python.org/3/tutorial/modules.html#tut-packages).
+       
+       * mysite/settings.py: Settings/configuration for this Django project. [Django settings](https://docs.djangoproject.com/en/4.1/topics/settings/) will tell you all about how settings work.
+
+       * mysite/urls.py: The URL declarations for this Django project; a “table of contents” of your Django-powered site. You can read more about URLs in [URL dispatcher](https://docs.djangoproject.com/en/4.1/topics/http/urls/).
+
+       * mysite/asgi.py: An entry-point for ASGI-compatible web servers to serve your project. See How to deploy with [ASGI for more details](https://docs.djangoproject.com/en/4.1/howto/deployment/asgi/).
+
+       * mysite/wsgi.py: An entry-point for WSGI-compatible web servers to serve your project. See How to deploy with [WSGI for more details](https://docs.djangoproject.com/en/4.1/howto/deployment/wsgi/).
+
+        * Let’s verify your Django project works. run the following commands: $ python manage.py runserver You’ve started the Django development server, a lightweight web server written purely in Python.
+
+        Once your web application is finished deploy it to Heroku.
+
+<br>
+
+### Setting up Heroku environment:
+---
+Make sure you add a procfile to your root directory!
+
+   * The Procfile is always a simple text file that is named [Procfile](https://devcenter.heroku.com/articles/procfile) without a file extension. For example, Procfile.txt is not valid. The Procfile must live in your app’s root directory. It does not function if placed anywhere else.
+
+   * Once you have your [account](https://www.heroku.com/) ready, login with your credentials.
+
+   * Click New on the top right corner and select “Create new app”.
+
+   * Give your app a name (This will be included in the public URL for your application) and click Create app.
+
+   * This step will take you to the dashboard of your app. Open Deploy tab and scroll to the “Deployment method” section.
+
+   * Select GitHub as the method.
+
+   * It will show a “Connect to GitHub” option where we can provide our GitHub repository. If you are doing it for the first time, Heroku will ask permission to access your GitHub account.
+
+   * Here, you can search for your GitHub repository and click connect:
+
+   * If it’s able to find and connect to the GitHub repository, the Deployment section will show up where you can select if you want Automatic Deployment (as soon as the changes are pushed to GitHub, Heroku will pick them up and deploy) or Manual Deployment.
+
+   * Click Enable Automatic Deploys (because it’s less overhead for demo apps :) ). You can also select the GitHub branch if you need to, deploy from the master branch.       
+
+
 
 <br>
 
