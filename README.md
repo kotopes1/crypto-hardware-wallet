@@ -65,9 +65,9 @@ ___
 <br>
 
 - ![Visual Studio Code](https://img.shields.io/static/v1?label=VS%20Code&message=1.42.0&color=007ACC&logo=visual%20studio%20code&logoColor=ffffff)
-- [VS Code](https://code.visualstudio.com/) - Used as my for code testing and editing.
+    - [VS Code](https://code.visualstudio.com/) - Used as my for code testing and editing.
 - [![GitHub](https://badgen.net/badge/icon/github?icon=github&label)](https://github.com)
-- [GitHub](https://github.com/) - Used as remote storage of my projects online.
+    - [GitHub](https://github.com/) - Used as remote storage of my projects online.
 - ![Balsamiq Wireframes](https://img.shields.io/static/v1?label=Balsamiq&message=3.5.17&color=CC0200)
     - [Balsamiq](https://balsamiq.com/) - Used to bring my wireframe sketches to life.
 <br>
@@ -141,6 +141,24 @@ Website was tested across 6 major browsers in both desktop and mobile configurat
 ___
 
 <br>
+
+## Development and Deployment
+___
+<br>
+
+Getting Started:
+--- 
+* Create a repository in [github](https://docs.github.com/en/get-started/quickstart/create-a-repo) with the desired name of your App or project.
+
+* Once your github repository is created, click the green Gitpod [button.](https://github.com/Flow-matic/Crypto-Price-App/blob/main/assets/images/gitpod%20workspace.png?raw=true) This will automatically start creating your workspace environment.
+
+* [Gitpod](https://www.gitpod.io/) environment is used to write your code for your App then gets pushed to Github.
+Setting up a Django working environment
+
+* [Django](https://developer.mozilla.org/en-US/docs/Learn/Server-side/Django/Introduction) makes it very easy to set up your own computer so that you can start developing web applications.
+
+<br>
+
 
 ## Credits
 ___
