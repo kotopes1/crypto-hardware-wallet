@@ -9,13 +9,13 @@ This project is part of my [Code Institute](https://codeinstitute.net/) Full Sta
 
 The Website is designed and based on digital freedom, securing the new disruptive class of crypto assets. Crypto requires new rules. New protection. New security practices. But nothing can't be learned. Visit Crypto Wallets website for all your crypto needs. A hardware wallet is a cryptocurrency wallet which stores the user's private keys (critical piece of information used to authorise outgoing transactions on the blockchain network) in a secure hardware device. The main princible behind hardware wallets is to provide full isolation between the private keys and your easy-to-hack computer or smartphone.
 
----
-
 <br>
 
 ---
+<br>
+
 ## UX
-This project is my fifth and final Milestone Project in the Code Institute's Fullstack Development program. I decided to create a website based on my passions!. Blockchain Techgnology. The E-commerce site has many features for customers and returning customers, from bowsing the latest digital wallets, to learning about Blockchain and cryptocurrency's.
+This project is my fifth and final Milestone Project in the Code Institute's Fullstack Development program. I decided to create a website based on my passions!. Blockchain Techgnology. The E-commerce site has many features for customers and returning customers, from bowsing the latest digital wallets, to purchasing various products, also learning about Blockchain and cryptocurrency's.
 ___
 <br>
 
