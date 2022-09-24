@@ -65,7 +65,27 @@ ___
 
 The home page has a fixed nav-bar header with a search bar, as well as drop-down menus for customers to navigate through products. Account sign-up and login details are also available with shopping bag and shop now button. 
 
-* [Home Page](https://github.com/Flow-matic/crypto-hardware-wallet/blob/main/media/home%20page.png?raw=true) 
+* [Home Page](https://github.com/Flow-matic/crypto-hardware-wallet/blob/main/media/home%20page.png?raw=true)
+
+* [Search Bar](https://github.com/Flow-matic/crypto-hardware-wallet/blob/main/media/search%20bar.png?raw=true)
+
+* [All Products](https://github.com/Flow-matic/crypto-hardware-wallet/blob/main/media/all%20products.png?raw=true)
+
+* [Wallets](https://github.com/Flow-matic/crypto-hardware-wallet/blob/main/media/wallets.png?raw=true)
+
+* [Learning](https://github.com/Flow-matic/crypto-hardware-wallet/blob/main/media/learn.png?raw=true)
+
+* [Login Register](https://github.com/Flow-matic/crypto-hardware-wallet/blob/main/media/login%20register.png?raw=true)
+
+* [Bag](https://github.com/Flow-matic/crypto-hardware-wallet/blob/main/media/check%20out%20bag.png?raw=true)
+
+* [Order Products](https://github.com/Flow-matic/crypto-hardware-wallet/blob/main/media/order%20product.png?raw=true)
+
+* [Shopping Bag](https://github.com/Flow-matic/crypto-hardware-wallet/blob/main/media/bag.png?raw=true)
+
+* []()
+
+
 
 ## Technologies Used
 <br>
