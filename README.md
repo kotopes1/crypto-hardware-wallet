@@ -61,11 +61,15 @@ ___
 ---
 <br>
 
+## Design
+
+The home page has a fixed nav-bar header with a search bar, as well as drop-down menus for customers to navigate through products. Account sign-up and login details are also available with shopping bag and shop now button. 
+
 ## Technologies Used
 <br>
 
 - ![Visual Studio Code](https://img.shields.io/static/v1?label=VS%20Code&message=1.42.0&color=007ACC&logo=visual%20studio%20code&logoColor=ffffff)
-    - [VS Code](https://code.visualstudio.com/) - Used as my for code testing and editing.
+    - [VS Code](https://code.visualstudio.com/) - Used as my code testing and editing.
 - [![GitHub](https://badgen.net/badge/icon/github?icon=github&label)](https://github.com)
     - [GitHub](https://github.com/) - Used as remote storage of my projects online.
 - ![Balsamiq Wireframes](https://img.shields.io/static/v1?label=Balsamiq&message=3.5.17&color=CC0200)
@@ -115,10 +119,13 @@ manual testing have gone into building the project.
 - [W3C HTML Validator](https://validator.w3.org)
 
 **CSS**
-- [W3C CSS Validator](https://jigsaw.w3.org/css-validator/)
+- [W3C CSS Validator](https://jigsaw.w3.org/css-validator/) was used to test all css code, code come back clean with no errors.
 
 **JavaScript**
-- [JShint](https://jshint.com/)
+- [JShint](https://jshint.com/) was used to check the javascript code two errors did flag up as follows, ('template literal syntax' is only available in ES6 (use 'esversion: 6'). after researching how to resolve the issue a .jshinttrc file was added to the root directory with the following code {"esversion": 6} to override the issue.
+
+- Undefined variables
+ `$` (used for jQuery)
 
 **Python**
 - [PEP8 Online](http://pep8online.com/)
@@ -229,6 +236,12 @@ ___
   * [Code Institute](https://github.com/Code-Institute-Org/python-essentials-template) for providing the walkthrough guided videos and code.
 
   * I used [YouTube](https://www.youtube.com/) for guides during my project.
+
+  * [Unsplash](https://unsplash.com/) for unlimited free photo's.
+
+  * [Pexels](https://www.pexels.com/) another great website for free images.
+
+  * [Favicon](https://favicon.io/) for the website favicon.
 
   * My go to website is always [W3Schools](https://www.w3schools.com/)
 
