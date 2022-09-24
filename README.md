@@ -65,6 +65,8 @@ ___
 
 The home page has a fixed nav-bar header with a search bar, as well as drop-down menus for customers to navigate through products. Account sign-up and login details are also available with shopping bag and shop now button. 
 
+* [Home Page](https://github.com/Flow-matic/crypto-hardware-wallet/blob/main/media/home%20page.png?raw=true) 
+
 ## Technologies Used
 <br>
 
