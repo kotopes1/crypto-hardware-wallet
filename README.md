@@ -12,7 +12,6 @@ The Website is designed and based on digital freedom, securing the new disruptiv
 <br>
 
 ---
-<br>
 
 ## UX
 This project is my fifth and final Milestone Project in the Code Institute's Fullstack Development program. I decided to create a website based on my passions!. Blockchain Techgnology. The E-commerce site has many features for customers and returning customers, from bowsing the latest digital wallets, to purchasing various products, also learning about Blockchain and cryptocurrency's.
@@ -59,7 +58,6 @@ ___
 | Read the latest news on cryptocurrency      | News articles provided for users                 |
 | Buy and store cryptocurrency safely         | Information is provided                          |
 ---
-<br>
 
 ## Design
 
@@ -88,7 +86,6 @@ The home page has a fixed nav-bar header with a search bar, as well as drop-down
 * [Thank You For Your Order](https://github.com/Flow-matic/crypto-hardware-wallet/blob/main/media/thank%20you%20for%20your%20order.png?raw=true)
 * [Order Confirmation Number](https://github.com/Flow-matic/crypto-hardware-wallet/blob/main/media/order%20number%20confirmation.png?raw=true)
 
-<br>
 
 ## Stripe 
 
@@ -112,7 +109,6 @@ To confirm that your integration works correctly, simulate transactions without 
 When testing stripe payments the links and images above should tell you that everything is working as it should be, if for any reasons you are getting any errors have a look at these links. [Help Guides](https://stripe.com/docs)
 
 ---
-<br>
 
 ## Technologies Used
 <br>
@@ -152,10 +148,9 @@ When testing stripe payments the links and images above should tell you that eve
 - ![PostgreSQL 11.4](https://img.shields.io/static/v1?label=PostgreSQL&message=11.4&color=336791&logo=postgresql)
     - [PostgreSQL 11.4](https://www.postgresql.org/) - Used as relational SQL database plugin via Heroku.
 ___
-<br>
 
 ## Testing
-___
+
 <br>
 manual testing have gone into building the project.
 
@@ -179,10 +174,9 @@ manual testing have gone into building the project.
 **Python**
 - [PEP8 Online](http://pep8online.com/)
 ___
-<br>
 
 ### Compatibility
-___
+
 <br>
 
 Website was tested across 6 major browsers in both desktop and mobile configuration.
@@ -196,10 +190,8 @@ Website was tested across 6 major browsers in both desktop and mobile configurat
 <br>
 ___
 
-<br>
-
 ## Development and Deployment
-___
+
 <br>
 
 Getting Started:
@@ -267,12 +259,7 @@ Make sure you add a procfile to your root directory!
 
    * If it’s able to find and connect to the GitHub repository, the Deployment section will show up where you can select if you want Automatic Deployment (as soon as the changes are pushed to GitHub, Heroku will pick them up and deploy) or Manual Deployment.
 
-   * Click Enable Automatic Deploys (because it’s less overhead for demo apps :) ). You can also select the GitHub branch if you need to, deploy from the master branch.       
-
-
-
-<br>
-
+   * Click Enable Automatic Deploys (because it’s less overhead for demo apps :) ). You can also select the GitHub branch if you need to, deploy from the master branch.
 
 ## Credits
 ___
@@ -302,8 +289,9 @@ ___
 
   * [MDN Web Docs](https://developer.mozilla.org/en-US/) best documentation on the web.
 
+  * [Font Awesome](https://fontawesome.com/) is the Internet's icon library and toolkit, used by millions of designers, developers, and content creators.
+
 ___
-<br>
 
 Helpful Resources To Continue Learning About Blockchain
 ---
