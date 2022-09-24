@@ -92,9 +92,27 @@ The home page has a fixed nav-bar header with a search bar, as well as drop-down
 
 ## Stripe 
 
-Payments on the website [stripe](https://stripe.com/gb) was used, 
+Payments on the website I used [Stripe](https://stripe.com/gb).
 
+* What does Stripe actually do? <br>
+As a payment processor, Stripe allows business owners to accept payments from credit and debit cards and processes those payments. Using Stripe, businesses can also accept payments from mobile wallets and buy now, pay later services.
 
+* [Simulate payments to test your integration.](https://stripe.com/docs/testing) <br>
+To confirm that your integration works correctly, simulate transactions without moving any money, using special values in [test mode](https://stripe.com/docs/keys#test-live-modes).
+
+* [Test bank card number](https://github.com/Flow-matic/crypto-hardware-wallet/blob/main/media/test%20bank%20card.png?raw=true) Please DO NOT! use any real bank cards as previously mentioned, use the numbers provided from [Stripe](https://stripe.com/docs/payments/without-card-authentication) for testing payments.
+
+* [Stripe payment success](https://github.com/Flow-matic/crypto-hardware-wallet/blob/main/media/stripe%20payment%201.png?raw=true)
+
+* [Payment method](https://github.com/Flow-matic/crypto-hardware-wallet/blob/main/media/stripe%20payment%202.png?raw=true)
+
+* [Payment processed](https://github.com/Flow-matic/crypto-hardware-wallet/blob/main/media/stripe%20payment%20successful.png?raw=true)
+<br>
+
+When testing stripe payments the links and images above should tell you that everything is working as it should be, if for any reasons you are getting any errors have a look at these links. [Help Guides](https://stripe.com/docs)
+
+---
+<br>
 
 ## Technologies Used
 <br>
