@@ -83,7 +83,16 @@ The home page has a fixed nav-bar header with a search bar, as well as drop-down
 
 * [Shopping Bag](https://github.com/Flow-matic/crypto-hardware-wallet/blob/main/media/bag.png?raw=true)
 
-* []()
+* [Card Details](https://github.com/Flow-matic/crypto-hardware-wallet/blob/main/media/card%20details.png?raw=true)
+
+* [Thank You For Your Order](https://github.com/Flow-matic/crypto-hardware-wallet/blob/main/media/thank%20you%20for%20your%20order.png?raw=true)
+* [Order Confirmation Number](https://github.com/Flow-matic/crypto-hardware-wallet/blob/main/media/order%20number%20confirmation.png?raw=true)
+
+<br>
+
+## Stripe 
+
+Payments on the website [stripe](https://stripe.com/gb) was used, 
 
 
 
