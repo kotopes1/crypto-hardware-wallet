@@ -118,21 +118,19 @@ LOGIN_REDIRECT_URL = '/'
 
 WSGI_APPLICATION = 'crypto_hardware_wallet.wsgi.application'
 
-
 # Database
-# https://docs.djangoproject.com/en/3.2/ref/settings/#databases
+# https://docs.djangoproject.com/en/3.0/ref/settings/#databases
 
-if 'DATABASE_URL' in os.environ:
-    DATABASES = {
-        'default': dj_database_url.parse(os.environ.get('DATABASE_URL'))
+DATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
     }
-else:
-    DATABASES = {
-        'default': {
-            'ENGINE': 'django.db.backends.sqlite3',
-            'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
-        }
-    }
+}
+
+#DATABASES = {
+#    'default': dj_database_url.parse('postgres://fnsqnikirtofew:01edf344fd64a39ddf11e8a5782def3d5be2b0de17010f15c85dbf7152aebac2@ec2-54-76-43-89.eu-west-1.compute.amazonaws.com:5432/dce212r21g10qh')
+#}
 
 
 # Password validation
