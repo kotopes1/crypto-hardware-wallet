@@ -1,0 +1,1 @@
+web: gunicorn crypto_hardware_wallet.wsgi:application
