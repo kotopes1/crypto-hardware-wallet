@@ -203,14 +203,15 @@ ___
 
 <br>
 
-Website was tested across 6 major browsers in both desktop and mobile configuration.
+Website was tested across various browsers in both desktop and mobile configuration.
 
 - **Chrome**
-- **Edge**
-- **Firefox**
 - **Safari**
-- **Opera**
 - **Internet Explorer**
+
+- **Apple devices**
+- **Android devices**
+
 <br>
 ___
 
