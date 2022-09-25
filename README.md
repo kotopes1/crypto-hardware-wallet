@@ -124,7 +124,13 @@ A wireframe is a schematic, a blueprint, useful to help you and your programmers
 
 ---
 
-## Facebook 
+## [Facebook Mockup Page](https://github.com/Flow-matic/crypto-hardware-wallet/blob/main/media/facebook%20mockup.png?raw=true) 
+
+* SEO is not limited to websites; it also applies to your Facebook pages. You can consider a facebook page as a web page only and SEO principles can be applied here to maximize reach, attract followers, and advance businesses by increasing organic visibility and ranking.
+
+### [What is a Facebook pixel?](https://en.wikipedia.org/wiki/Conversion_tracking)
+
+* The Facebook pixel is a piece of code that you place on your website. It collects data that helps you track conversions from Facebook ads, optimize ads, build targeted audiences for future ads and remarket to people who have already taken some kind of action on your website.
 
 ---
 
