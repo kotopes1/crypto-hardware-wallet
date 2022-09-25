@@ -1,6 +1,6 @@
 This project is part of my [Code Institute](https://codeinstitute.net/) Full Stack Software Development studies, Anyone visiting the Website should NOT add any real bank or credit card details!.
 
-![responsive design](https://www.ledger.com/wp-content/uploads/2022/07/banner-en-last.png)
+![responsive design](https://github.com/Flow-matic/crypto-hardware-wallet/blob/main/media/home%20page.png?raw=true)
 
 ---
 
