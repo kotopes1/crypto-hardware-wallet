@@ -110,7 +110,17 @@ When testing stripe payments the links and images above should tell you that eve
 
 ---
 
-## Wireframes
+## [Balsamiq Wireframes](https://balsamiq.com/)
+
+The designs you received are called wireframes (sometimes called wires, mockups, or mocks).
+
+A wireframe is a schematic, a blueprint, useful to help you and your programmers and designers think and communicate about the structure of the software or website you're building.
+
+[Home Page](https://github.com/Flow-matic/crypto-hardware-wallet/blob/main/media/crypto%20wallet%20home.png?raw=true)
+
+[Checkout Bag](https://github.com/Flow-matic/crypto-hardware-wallet/blob/main/media/crypto%20wallets%20checkout.png?raw=true)
+
+[Order Complete](https://github.com/Flow-matic/crypto-hardware-wallet/blob/main/media/crypto%20wallet%20order%20complete.png?raw=true)
 
 ---
 
