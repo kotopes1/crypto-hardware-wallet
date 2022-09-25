@@ -129,7 +129,7 @@ DATABASES = {
 }
 
 #DATABASES = {
-#    'default': dj_database_url.parse('postgres://fnsqnikirtofew:01edf344fd64a39ddf11e8a5782def3d5be2b0de17010f15c85dbf7152aebac2@ec2-54-76-43-89.eu-west-1.compute.amazonaws.com:5432/dce212r21g10qh')
+#    'default': dj_database_url.parse('')
 #}
 
 
