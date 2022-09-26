@@ -28,7 +28,7 @@ SECRET_KEY = 'django-insecure-(1=r+*h#psvq6-rlzx@3#y99-c&*pu4lf63fgz!q__oo=(jdt^
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['localhost']
+ALLOWED_HOSTS = ['crypto-hardware-wallets.herokuapp.com', 'localhost']
 
 
 # Application definition
