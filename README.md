@@ -57,6 +57,9 @@ ___
 | Learn about Blockchain Technology           | Drop down learning on nav-bar                    |
 | Read the latest news on cryptocurrency      | News articles provided for users                 |
 | Buy and store cryptocurrency safely         | Information is provided                          |
+
+More products will be added at a later date, latest ( Storage ) devices. 
+
 ---
 
 ## Design
@@ -85,7 +88,7 @@ The home page has a fixed nav-bar header with a search bar, as well as drop-down
 
 * [Thank You For Your Order](https://github.com/Flow-matic/crypto-hardware-wallet/blob/main/media/thank%20you%20for%20your%20order.png?raw=true)
 * [Order Confirmation Number](https://github.com/Flow-matic/crypto-hardware-wallet/blob/main/media/order%20number%20confirmation.png?raw=true)
-
+___
 
 ## Stripe 
 
@@ -198,12 +201,14 @@ manual testing have gone into building the project.
 **Python**
 - [PEP8 Online](http://pep8online.com/)
 
-In the command line interface the following input was added, (python3 -m flake8) to bring up files with errors. Most errors were ( E501 line too long (81 > 79 characters) at this point in time I didn’t want to adjust my code incases I added more issues.
+In the command line interface the following input was added, (python3 -m flake8) to bring up files with errors. Most errors were ( E501 line too long (81 > 79 characters) at this point in time I didn’t want to adjust my code incase I added more issues.
 ___
 
 **Email** 
 
 * Issue with sending emails was discovered just before submission was due, all step were taking from the video guide tutorials during the build process, Ive contacted various tutors and students to resolve my issue on which still needs a deeper research on my behalf.
+
+From Slack the below article
 
 * FYI: for those dealing with password reset and google blocking django from sending emails:
 It seems that Django and Google's "Allow Less Secure Apps" setting don't play together nicely anymore, and it's been like this for a while.
@@ -220,7 +225,7 @@ How?
 
 5: put it in your env/config vars instead of your normal password
 
-Above step were taking numerous times before submission, and its something I have to look at and work on.
+Above steps were taking numerous times before submission, and its something I have to look at and work on.
 ___
 
 **Convig Vars**
