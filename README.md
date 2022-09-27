@@ -199,6 +199,33 @@ manual testing have gone into building the project.
 - [PEP8 Online](http://pep8online.com/)
 ___
 
+**Email** 
+
+* Issue with sending emails was discovered just before submission was due, all step were taking from the video guide tutorials during the build process, Ive contacted various tutors and students to resolve my issue on which still needs a deeper research on my behalf.
+
+* FYI: for those dealing with password reset and google blocking django from sending emails:
+It seems that Django and Google's "Allow Less Secure Apps" setting don't play together nicely anymore, and it's been like this for a while.
+What can you do instead: use an App Password.
+How?
+
+1: turn off less secure apps
+
+2: turn on two-factor authentication
+
+3: click on app passwords (this will appear right below where you turned on the two-factor auth)
+
+4: set up your new app password
+
+5: put it in your env/config vars instead of your normal password
+
+Above step were taking numerous times before submission, and its something I have to look at and work on.
+___
+
+**Convig Vars**
+
+* Whilst working on my project I accidentally push my convig vars to github, realised after. I delleted it from Heroku and created a new convig vars. I spoke to a Code Institute tutor who guided me on this issue.
+___
+
 ### Compatibility
 
 <br>
@@ -209,10 +236,8 @@ Website was tested across various browsers in both desktop and mobile configurat
 - **Safari**
 - **Internet Explorer**
 
-- **Apple devices**
-- **Android devices**
-
-<br>
+- **Apple Iphone xr, 12,**
+- **Android Pixel 5, Galaxy s20**
 ___
 
 ## Development and Deployment
@@ -285,6 +310,16 @@ Make sure you add a procfile to your root directory!
    * If it’s able to find and connect to the GitHub repository, the Deployment section will show up where you can select if you want Automatic Deployment (as soon as the changes are pushed to GitHub, Heroku will pick them up and deploy) or Manual Deployment.
 
    * Click Enable Automatic Deploys (because it’s less overhead for demo apps :) ). You can also select the GitHub branch if you need to, deploy from the master branch.
+___
+
+### AWS 
+
+Amazon web services was used to store the static files for this project.
+
+Amazon S3 or Amazon Simple Storage Service is a service offered by Amazon Web Services that provides object storage through a web service interface. Amazon S3 uses the same scalable storage infrastructure that Amazon.com uses to run its e-commerce network.
+
+[Step by Step guides for setting up a AWS account](https://docs.aws.amazon.com/accounts/latest/reference/manage-acct-creating.html)
+___
 
 ## Credits
 ___
