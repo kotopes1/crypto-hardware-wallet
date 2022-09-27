@@ -184,7 +184,7 @@ manual testing have gone into building the project.
 <br>
 
 **HTML**
-- [W3C HTML Validator](https://validator.w3.org)
+- [W3C HTML Validator](https://validator.w3.org) further testing with html checker needs done as it seems some errors were flagging up Django code {% %}
 
 **CSS**
 - [W3C CSS Validator](https://jigsaw.w3.org/css-validator/) was used to test all css code, code come back clean with no errors.
@@ -197,6 +197,8 @@ manual testing have gone into building the project.
 
 **Python**
 - [PEP8 Online](http://pep8online.com/)
+
+In the command line interface the following input was added, (python3 -m flake8) to bring up files with errors. Most errors were ( E501 line too long (81 > 79 characters) at this point in time I didn’t want to adjust my code incases I added more issues.
 ___
 
 **Email** 
