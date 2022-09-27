@@ -4,7 +4,7 @@ This project is part of my [Code Institute](https://codeinstitute.net/) Full Sta
 
 ---
 
- # [Crypto Wallets](https://flow-matic-crypto-price-app-assetspythonapp-cs4spv.streamlitapp.com/)
+ # [Crypto Wallets](https://crypto-hardware-wallets.herokuapp.com/)
 
 
 The Website is designed and based on digital freedom, securing the new disruptive class of crypto assets. Crypto requires new rules. New protection. New security practices. But nothing can't be learned. Visit Crypto Wallets website for all your crypto needs. A hardware wallet is a cryptocurrency wallet which stores the user's private keys (critical piece of information used to authorise outgoing transactions on the blockchain network) in a secure hardware device. The main princible behind hardware wallets is to provide full isolation between the private keys and your easy-to-hack computer or smartphone.
