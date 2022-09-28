@@ -229,6 +229,10 @@ How?
 
 * The reason my Emails weren’t sending on the sign up page is because in Heroku I still had development=true in my config vars, I deleted the config vars and the issue is now resolved.
 
+**[TempMail](https://temp-mail.org/en/) was used for dummy email addresses.**
+
+ * Disposable email - is a free email service that allows to receive email at a temporary address that self-destructed after a certain time elapses. It is also known by names like : tempmail, 10minutemail, 10minmail, throwaway email, fake-mail , fake email generator, burner mail or trash-mail.
+
 ___
 
 **Convig Vars**
