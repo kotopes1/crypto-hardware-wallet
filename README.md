@@ -204,9 +204,9 @@ manual testing have gone into building the project.
 In the command line interface the following input was added, (python3 -m flake8) to bring up files with errors. Most errors were ( E501 line too long (81 > 79 characters) at this point in time I didn’t want to adjust my code incase I added more issues.
 ___
 
-**Email** 
+**Email Issues** 
 
-* Issue with sending emails was discovered just before submission was due, all step were taking from the video guide tutorials during the build process, Ive contacted various tutors and students to resolve my issue on which still needs a deeper research on my behalf.
+* Issue with sending emails was discovered just before submission was due, all step were taking from the video guide tutorials during the build process, Ive contacted various tutors and students to resolve my issue.
 
 From Slack the below article
 
@@ -225,7 +225,10 @@ How?
 
 5: put it in your env/config vars instead of your normal password
 
-Above steps were taking numerous times before submission, and its something I have to look at and work on.
+**Email sending fixed**
+
+* The reason my Emails weren’t sending on the sign up page is because in Heroku I still had development=true in my config vars, I deleted the config vars and the issue is now resolved.
+
 ___
 
 **Convig Vars**
