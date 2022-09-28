@@ -7,14 +7,14 @@ This project is part of my [Code Institute](https://codeinstitute.net/) Full Sta
  # [Crypto Wallets](https://crypto-hardware-wallets.herokuapp.com/)
 
 
-The Website is designed and based on digital freedom, securing the new disruptive class of crypto assets. Crypto requires new rules. New protection. New security practices. But nothing can't be learned. Visit Crypto Wallets website for all your crypto needs. A hardware wallet is a cryptocurrency wallet which stores the user's private keys (critical piece of information used to authorise outgoing transactions on the blockchain network) in a secure hardware device. The main princible behind hardware wallets is to provide full isolation between the private keys and your easy-to-hack computer or smartphone.
+The Website is designed and based on digital freedom, securing the new disruptive class of crypto assets. Crypto requires new rules. New protection. New security practices. But nothing can't be learned. Visit Crypto Wallets website for all your crypto needs. A hardware wallet is a cryptocurrency wallet which stores the user's private keys (critical piece of information used to authorise outgoing transactions on the blockchain network) in a secure hardware device. The main principle behind hardware wallets is to provide full isolation between the private keys and your easy-to-hack computer or smartphone.
 
 <br>
 
 ---
 
 ## UX
-This project is my fifth and final Milestone Project in the Code Institute's Fullstack Development program. I decided to create a website based on my passions!. Blockchain Techgnology. The E-commerce site has many features for customers and returning customers, from bowsing the latest digital wallets, to purchasing various products, also learning about Blockchain and cryptocurrency's.
+This project is my fifth and final Milestone Project in the Code Institute's Full-stack Development program. I decided to create a website based on my passions!. Blockchain Technology. The E-commerce site has many features for customers and returning customers, from browsing the latest digital wallets, to purchasing various products, also learning about Blockchain and cryptocurrency's.
 ___
 <br>
 
@@ -45,7 +45,7 @@ ___
 | ------------------------------------------- | ------------------------------------------------ |
 | Add/Update/Remove a product                 | keep the store up to date                        |
 | Add/Update/Remove a producer                | keep users informed about the latest information |
-| Receive orders from customers in my mailbox | fulfill the orders                               |
+| Receive orders from customers in my mailbox | fulfil the orders                                |
 ---
 <br>
 
@@ -117,7 +117,7 @@ When testing stripe payments the links and images above should tell you that eve
 
 The designs you received are called wireframes (sometimes called wires, mockups, or mocks).
 
-A wireframe is a schematic, a blueprint, useful to help you and your programmers and designers think and communicate about the structure of the software or website you're building.
+A wireframe is a schematic, a blueprint, useful to help you're and your programmers and designers think and communicate about the structure of the software or website your building.
 
 [Home Page](https://github.com/Flow-matic/crypto-hardware-wallet/blob/main/media/crypto%20wallet%20home.png?raw=true)
 
@@ -129,11 +129,11 @@ A wireframe is a schematic, a blueprint, useful to help you and your programmers
 
 ## [Facebook Mockup Page](https://github.com/Flow-matic/crypto-hardware-wallet/blob/main/media/facebook%20mockup.png?raw=true) 
 
-* SEO is not limited to websites; it also applies to your Facebook pages. You can consider a facebook page as a web page only and SEO principles can be applied here to maximize reach, attract followers, and advance businesses by increasing organic visibility and ranking.
+* SEO is not limited too websites; it also applies to your Facebook pages. You can consider a facebook page as a web page only and SEO principles can be applied here to maximise reach, attract followers, and advance businesses by increasing organic visibility and ranking.
 
 ### [What is a Facebook pixel?](https://en.wikipedia.org/wiki/Conversion_tracking)
 
-* The Facebook pixel is a piece of code that you place on your website. It collects data that helps you track conversions from Facebook ads, optimize ads, build targeted audiences for future ads and remarket to people who have already taken some kind of action on your website.
+* The Facebook pixel is a piece of code that you place on your website. It collects data that helps you track conversions from Facebook ads, optimise ads, build targeted audiences for future ads and remarket to people who have already taken some kind of action on your website.
 
 ---
 
@@ -160,7 +160,7 @@ A wireframe is a schematic, a blueprint, useful to help you and your programmers
 - ![Stripe API](https://img.shields.io/static/v1?label=Stripe&message=API&color=008CDD&logo=stripe&logoColor=ffffff)
     - [Stripe API](https://stripe.com/docs/api?lang=python) - Used to make secured payments on *Feature Tickets*.
 - ![Amazon AWS S3](https://img.shields.io/static/v1?label=Amazon%20AWS&message=S3&color=232F3E&logo=amazon%20aws)
-    - [Amazon AWS S3](https://aws.amazon.com/) - Used to store *staticfiles* and *media* folders and files.
+    - [Amazon AWS S3](https://aws.amazon.com/) - Used to store *static-files* and *media* folders and files.
 <br>
 
 ### Back-End Technologies
@@ -202,6 +202,10 @@ manual testing have gone into building the project.
 - [PEP8 Online](http://pep8online.com/)
 
 In the command line interface the following input was added, (python3 -m flake8) to bring up files with errors. Most errors were ( E501 line too long (81 > 79 characters) at this point in time I didn’t want to adjust my code incase I added more issues.
+
+'django.test.TestCase' imported but unused on various files.
+
+More testing will be done at a leter date, to remove any errors. 
 ___
 
 **Email Issues** 
@@ -235,9 +239,9 @@ How?
 
 ___
 
-**Convig Vars**
+**Config Vars**
 
-* Whilst working on my project I accidentally push my convig vars to github, realised after. I delleted it from Heroku and created a new convig vars. I spoke to a Code Institute tutor who guided me on this issue.
+* Whilst working on my project I accidentally pushed my convig vars to github, realised after. I deleted it from Heroku and created a new config vars. I spoke to a Code Institute tutor who guided me on this issue. And recommend I mention it in my readme.md file to say it has been corrected.
 ___
 
 ### Compatibility
@@ -250,7 +254,7 @@ Website was tested across various browsers in both desktop and mobile configurat
 - **Safari**
 - **Internet Explorer**
 
-- **Apple Iphone xr, 12,**
+- **Apple iphone xr, 12,**
 - **Android Pixel 5, Galaxy s20**
 ___
 
