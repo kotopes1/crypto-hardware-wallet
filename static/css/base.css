@@ -329,7 +329,34 @@ input[name='q']::placeholder {
 }
 
 /* Footer */
-.footer {
+
+.footer-icon {
+    font-size: 2.4rem;
+}
+
+.footer-link a {
+    color: #blue !important;
+    text-decoration: none;
+}
+
+.footer-link a:hover,
+.footer-link a:active,
+.footer-link a:focus {
+    color: #red !important;
+}
+
+.dark-font {
+    color: #green !important;
+}
+
+/* Mailchimp */
+
+#mc_embed_signup {
+    padding: 0;
+}
+
+
+/*.footer {
     background-color: #000;
     padding-bottom: 0em;
     position: -webkit-sticky;
