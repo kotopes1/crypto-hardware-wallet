@@ -28,7 +28,7 @@ body {
 }
 
 .shop-now-button {
-    background: black;
+    background: #000;
     color: white;
     min-width: 10px;
 }
@@ -62,7 +62,7 @@ body {
 }
 
 .text-black {
-    color: #000 !important;
+    color: #555555 !important;
 }
 
 .border-black {
@@ -335,18 +335,18 @@ input[name='q']::placeholder {
 }
 
 .footer-link a {
-    color: #blue !important;
+    color: #007bff !important;
     text-decoration: none;
 }
 
 .footer-link a:hover,
 .footer-link a:active,
 .footer-link a:focus {
-    color: #red !important;
+    color: #0000ff  !important;
 }
 
 .dark-font {
-    color: #green !important;
+    color: #555555 !important;
 }
 
 /* Mailchimp */
