@@ -127,6 +127,16 @@ A wireframe is a schematic, a blueprint, useful to help you're and your programm
 
 ---
 
+## [Mailchimp](https://mailchimp.com/en-gb/?currency=GBP)
+
+* Mailchimp was added to the footer of each page.
+
+    What is it!
+    * marketing automation platform designed and developed for businesses using email to reach out to their target markets. It is an all-in-one tool where you can manage your mailing lists, create custom email templates, and nurture and automate your entire marketing campaigns. Enterprises looking to leverage email marketing need a tool, such as Mailchimp, to run their campaigns like a well-oiled machine.
+
+
+--- 
+
 ## [Facebook Mockup Page](https://github.com/Flow-matic/crypto-hardware-wallet/blob/main/media/facebook%20mockup.png?raw=true) 
 
 * SEO is not limited too websites; it also applies to your Facebook pages. You can consider a facebook page as a web page only and SEO principles can be applied here to maximise reach, attract followers, and advance businesses by increasing organic visibility and ranking.
