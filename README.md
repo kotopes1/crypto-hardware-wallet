@@ -131,7 +131,7 @@ A wireframe is a schematic, a blueprint, useful to help you're and your programm
 
 * Mailchimp was added to the footer of each page, for customers and users to [subscribe](https://github.com/Flow-matic/crypto-hardware-wallet/blob/main/media/mailchimp%20contacts.png?raw=true) to.
 
-    What is it!
+    What is mailchimp!
     * marketing automation platform designed and developed for businesses using email to reach out to their target markets. It is an all-in-one tool where you can manage your mailing lists, create custom email templates, and nurture and automate your entire marketing campaigns. Enterprises looking to leverage email marketing need a tool, such as Mailchimp, to run their campaigns like a well-oiled machine.
 
 
