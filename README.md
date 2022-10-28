@@ -62,6 +62,11 @@ More products will be added at a later date, latest ( Storage ) devices.
 
 ---
 
+## Data Schema
+
+ * [Dbdiagram.io](https://dbdiagram.io/home) is a free online database diagraming tool for developers and data analysts. It uses a code-based user interface, and you can create up to 10 diagrams for free.
+---
+
 ## Design
 
 The home page has a fixed nav-bar header with a search bar, as well as drop-down menus for customers to navigate through products. Account sign-up and login details are also available with shopping bag and shop now button. 
