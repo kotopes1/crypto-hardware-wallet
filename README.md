@@ -255,7 +255,7 @@ How?
 
 ___
 
-## 404 Page Not Found Error Page:
+## [404 Page Not Found Error Page:](https://github.com/Flow-matic/crypto-hardware-wallet/blob/main/media/404%20error%20page.png?raw=true)
 
   * This error shows when a user types a URL into the browser which does not exist within the app's domain.
 ---
