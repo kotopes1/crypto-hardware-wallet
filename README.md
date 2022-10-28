@@ -137,7 +137,7 @@ A wireframe is a schematic, a blueprint, useful to help you're and your programm
 
 * Mailchimp was added to the footer of each page, for customers and users to [subscribe](https://github.com/Flow-matic/crypto-hardware-wallet/blob/main/media/mailchimp%20contacts.png?raw=true) to.
 
-    What is mailchimp what is it good for!
+    What is mailchimp!
     * marketing automation platform designed and developed for businesses using email to reach out to their target markets. It is an all-in-one tool where you can manage your mailing lists, create custom email templates, and nurture and automate your entire marketing campaigns. Enterprises looking to leverage email marketing need a tool, such as Mailchimp, to run their campaigns like a well-oiled machine.
 
 
@@ -254,6 +254,11 @@ How?
  * Disposable email - is a free email service that allows to receive email at a temporary address that self-destructed after a certain time elapses. It is also known by names like : tempmail, 10minutemail, 10minmail, throwaway email, fake-mail , fake email generator, burner mail or trash-mail.
 
 ___
+
+## 404 Page Not Found Error Page:
+
+  * This error shows when a user types a URL into the browser which does not exist within the app's domain.
+---
 
 **Config Vars**
 
