@@ -58,14 +58,28 @@ ___
 | Read the latest news on cryptocurrency      | News articles provided for users                 |
 | Buy and store cryptocurrency safely         | Information is provided                          |
 
+### User Stories Errors 
+
+* If a user 
+
+    * puts in the same email to register, user already exists will show and they will have to sign in. 
+
+    * user name too familiar will apply, and a different one will have to be added instead.
+
+    * password too common, users will have to add a stronger password.
+
+    * 
+
 More products will be added at a later date, latest ( Storage ) devices. 
+
+Features to add will be a Blog page with new information regarding Blockchain Technology.
 
 ---
 
 ## Data Schema
 
  * [Dbdiagram.io](https://dbdiagram.io/home) is a free online database diagraming tool for developers and data analysts. It uses a code-based user interface, and you can create up to 10 diagrams for free.
- [screen shot](https://github.com/Flow-matic/crypto-hardware-wallet/blob/main/media/data%20schema.png?raw=true)
+ [screen shot](https://github.com/Flow-matic/crypto-hardware-wallet/blob/main/media/schema%20screenshot.png?raw=true)
 ---
 
 ## Design
