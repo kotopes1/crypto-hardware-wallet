@@ -231,6 +231,13 @@ manual testing have gone into building the project.
 **HTML**
 - [W3C HTML Validator](https://validator.w3.org) further testing with html checker needs done as it seems some errors were flagging up Django code {% %}
 
+- Element li not allowed as child of element nav in this context. 
+
+- Mailchimp signup embedded code has also flagged up a few errors.
+
+- A meta element with an http-equiv attribute whose value is X-UA-Compatible. 
+  * Either X-UA-Compatible is not "standard" HTML (FSVO "standard" that involves appearing on a publicly editable wiki page referenced by the specification) or the Validator isn't up to date with the current status of that wiki.
+
 **CSS**
 - [W3C CSS Validator](https://jigsaw.w3.org/css-validator/) was used to test all css code, code come back clean with no errors.
 
