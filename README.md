@@ -82,6 +82,14 @@ Features to add will be a Blog page with new information regarding Blockchain Te
 
  * [Dbdiagram.io](https://dbdiagram.io/home) is a free online database diagraming tool for developers and data analysts. It uses a code-based user interface, and you can create up to 10 diagrams for free.
  [screen shot](https://github.com/Flow-matic/crypto-hardware-wallet/blob/main/media/schema%20screenshot.png?raw=true)
+
+ ## User story boards
+
+ * User stories provide a way to simply and plainly describe user action and intent when interacting with a system (typically a user interface). In considering both the steps a user takes, and their motivations, in a narrative form we aim to empathize with our users while delivering a product or service.
+
+ * here are the user stories I created with Github. 
+ * [Story board 1](https://github.com/Flow-matic/crypto-hardware-wallet/blob/main/media/phase%201%20user%20story%20board.png?raw=true) 
+ * [Story board 2](https://github.com/Flow-matic/crypto-hardware-wallet/blob/main/media/phase%202%20user%20story%20board.png?raw=true)
 ---
 
 ## Design
