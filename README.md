@@ -62,13 +62,15 @@ ___
 
 * If a user 
 
-    * puts in the same email to register, user already exists will show and they will have to sign in. 
+    * [puts in the same email to register, user already exists will show and they will have to sign in.](https://github.com/Flow-matic/crypto-hardware-wallet/blob/main/media/user%20already%20exists%20.png?raw=true) 
 
-    * user name too familiar will apply, and a different one will have to be added instead.
+    * [user name too familiar will apply, and a different one will have to be added instead.](https://github.com/Flow-matic/crypto-hardware-wallet/blob/main/media/username%20too%20familiar.png?raw=true)
 
-    * password too common, users will have to add a stronger password.
+    * [password too common, users will have to add a stronger password.](https://github.com/Flow-matic/crypto-hardware-wallet/blob/main/media/password%20too%20common.png?raw=true)
 
-    * 
+    * [password too short must contain at least 8 characters, users will be advbised to create a longer password.](https://github.com/Flow-matic/crypto-hardware-wallet/blob/main/media/password%20too%20short.png?raw=true)
+
+    * [if a user adds a incorrect bank card, your card number is invalid will advice users to add a correct card.](https://github.com/Flow-matic/crypto-hardware-wallet/blob/main/media/card%20is%20invalid.png?raw=true)
 
 More products will be added at a later date, latest ( Storage ) devices. 
 
