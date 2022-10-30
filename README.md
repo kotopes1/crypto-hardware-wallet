@@ -307,8 +307,6 @@ ___
 
 ## Development and Deployment
 
-<br>
-
 Getting Started:
 --- 
 * Create a repository in [github](https://docs.github.com/en/get-started/quickstart/create-a-repo) with the desired name of your App or project.
