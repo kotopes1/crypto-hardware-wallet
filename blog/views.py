@@ -9,7 +9,7 @@ class PostList(generic.ListView):
     """ Settings frontview of blog """
     model = Post
     queryset = Post.objects.filter(status=1).order_by("-created_on")
-    template_name = "index.html"
+    template_name = "about.html"
     paginate_by = 6
 
 
