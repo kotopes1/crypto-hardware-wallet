@@ -89,7 +89,7 @@ body {
 
 .post-link:hover,
 .page-link {
-    color: mediumseagreen;
+    color: MediumSeaGreen;
 }
 
 .post-title {
@@ -99,7 +99,7 @@ body {
 
 .post-subtitle {
     margin-left: 5%;
-    color: lightgrey;
+    color: lightgray;
 }
 
 .btn-signup {
@@ -157,3 +157,6 @@ body {
 .dark-font {
     color: #555555 !important;
 }
+
+
+/* Mailchimp */
