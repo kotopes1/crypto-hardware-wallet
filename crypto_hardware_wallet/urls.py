@@ -31,4 +31,7 @@ urlpatterns = [
 ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
 
 
+handler400 = 'crypto_hardware_wallet.views.handler400'
+handler403 = 'crypto_hardware_wallet.views.handler403'
 handler404 = 'crypto_hardware_wallet.views.handler404'
+handler500 = 'crypto_hardware_wallet.views.handler500'
