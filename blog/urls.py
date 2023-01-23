@@ -1,6 +1,7 @@
 """ URL patterns connecting blog """
-from django.urls import path
 from blog import views
+from . import views
+from django.urls import path
 
 
 urlpatterns = [
