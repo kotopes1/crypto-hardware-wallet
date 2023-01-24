@@ -1,7 +1,9 @@
 from django.shortcuts import render, get_object_or_404, reverse
 from django.views import generic, View
+from django.views.generic.edit import DeleteView, UpdateView
+from django.urls import reverse_lazy
 from django.http import HttpResponseRedirect
-from .models import Post
+from .models import Post, Comment
 from .forms import CommentForm
 
 
@@ -78,3 +80,34 @@ class PostLike(View):
             post.likes.add(request.user)
 
         return HttpResponseRedirect(reverse('post_detail', args=[slug]))
+
+
+class PostDeleteView(DeleteView):
+    """
+    View for deleting a post if user is the auther of the post
+    """
+    model = Comment
+    template_name = 'comment_delete.html'
+    success_url = reverse_lazy('blog')
+    success_message = 'Post has been deleted successfully'
+
+
+class CommentUpdateView(UpdateView):
+    """ Update comments """
+    model = Comment
+    form_class = CommentForm
+    template_name = 'comment_update.html'
+    success_message = 'Comment has been updated successfully'
+
+    def form_valid(self, form):
+
+        """
+        Success url return to blogpost question
+        withh successfull commentform
+        """
+        self.success_url = f'/{self.get_object().post.slug}/'
+        return super().form_valid(form)
+
+    def form_invalid(self, form):
+        print(form.errors)
+        return super().form_invalid(form)
