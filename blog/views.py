@@ -97,5 +97,5 @@ class CommentUpdateView(UpdateView):
     model = Comment
     form_class = CommentForm
     template_name = 'comment_update.html'
+    success_url = reverse_lazy('blog')
     success_message = 'Comment has been updated successfully'
-    success_url = '/comments/'
