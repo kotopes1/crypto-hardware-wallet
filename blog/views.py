@@ -3,6 +3,7 @@ from django.views import generic, View
 from django.views.generic.edit import DeleteView, UpdateView
 from django.urls import reverse_lazy
 from django.http import HttpResponseRedirect
+from django.contrib import messages
 from .models import Post, Comment
 from .forms import CommentForm
 
@@ -99,3 +100,7 @@ class CommentUpdateView(UpdateView):
     template_name = 'comment_update.html'
     success_url = reverse_lazy('blog')
     success_message = 'Comment has been updated successfully'
+
+    def form_valid(self, form):
+        messages.success(self.request, self.success_message)
+        return super().form_valid(form)
