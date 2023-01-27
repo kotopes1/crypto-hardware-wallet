@@ -98,16 +98,4 @@ class CommentUpdateView(UpdateView):
     form_class = CommentForm
     template_name = 'comment_update.html'
     success_message = 'Comment has been updated successfully'
-
-    def form_valid(self, form):
-
-        """
-        Success url return to blogpost question
-        withh successfull commentform
-        """
-        self.success_url = f'/{self.get_object().post.slug}/'
-        return super().form_valid(form)
-
-    def form_invalid(self, form):
-        print(form.errors)
-        return super().form_invalid(form)
+    success_url = '/comments/'
