@@ -72,6 +72,7 @@ class PostDetail(View):
 
 
 class PostLike(View):
+    """ A view for handling user likes on a specific post """
 
     def post(self, request, slug, *args, **kwargs):
         post = get_object_or_404(Post, slug=slug)
@@ -98,7 +99,7 @@ class CommentUpdateView(UpdateView):
     model = Comment
     form_class = CommentForm
     template_name = 'comment_update.html'
-    success_url = reverse_lazy('blog')
+    success_url = reverse_lazy('home')
     success_message = 'Comment has been updated successfully'
 
     def form_valid(self, form):
