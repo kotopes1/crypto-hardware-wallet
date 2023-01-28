@@ -5,6 +5,13 @@ import sys
 
 
 def main():
+    """
+    Entry point for running management commands in Django.
+    Sets the DJANGO_SETTINGS_MODULE environment variable to the
+    crypto_hardware_wallet.settings module and then imports and runs
+    the execute_from_command_line function from Django's management module.
+    If the import of Django fails, an ImportError is raised.
+    """
     os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'crypto_hardware_wallet.settings')
     try:
         from django.core.management import execute_from_command_line
