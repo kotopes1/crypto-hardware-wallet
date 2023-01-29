@@ -1,3 +1,17 @@
+"""
+Django views for User Profile management.
+This module contains views for managing user profiles, including rendering the
+user profile template, updating user profile information, and displaying
+error messages.
+Imports:
+    render, get_object_or_404 : Django's render and get_object_or_404 shortcuts
+    messages : Django's messages framework for handling messages
+    login_required : Django's login_required decorator
+    for handling authentication
+    UserProfile : UserProfile model for user profile management
+    UserProfileForm : Form for updating user profile information
+"""
+
 from django.shortcuts import render, get_object_or_404
 from django.contrib import messages
 from django.contrib.auth.decorators import login_required
@@ -34,6 +48,12 @@ def profile(request):
 
 
 def order_history(request, order_number):
+    """
+Retrieves the order history for a given user.
+Retrieves the order history for the user specified by the user_id parameter.
+The order history includes information such as the order date, total cost, and
+items included in the order.
+    """
     order = get_object_or_404(Order, order_number=order_number)
 
     messages.info(request, (

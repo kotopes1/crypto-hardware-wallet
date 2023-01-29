@@ -1,3 +1,14 @@
+"""
+Stripe Webhook handler for the checkout app.
+This class handle the Stripe webhooks events,
+it will be in charge of validating the event,
+and triggering the appropriate actions in the system.
+Attributes:
+    event (dict): The Stripe event payload.
+Methods:
+    handle_event: Handle the Stripe event and trigger the appropriate actions.
+    _validate_event: Validate the event before handling it.
+"""
 from django.conf import settings
 from django.http import HttpResponse
 from django.views.decorators.http import require_POST
@@ -6,6 +17,7 @@ from django.views.decorators.csrf import csrf_exempt
 from checkout.webhook_handler import StripeWH_Handler
 
 import stripe
+
 
 @require_POST
 @csrf_exempt
@@ -22,7 +34,7 @@ def webhook(request):
 
     try:
         event = stripe.Webhook.construct_event(
-        payload, sig_header, wh_secret
+            payload, sig_header, wh_secret
         )
     except ValueError as e:
         # Invalid payload
