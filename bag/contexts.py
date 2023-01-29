@@ -1,9 +1,27 @@
+"""
+Import the Decimal class from the decimal module to handle high
+precision calculations.
+The Decimal class provides support for fast correctly rounded decimal
+floating point arithmetic. It can be used in Django to handle
+financial calculations
+or other use cases where high precision is required.
+"""
 from decimal import Decimal
 from django.conf import settings
 from django.shortcuts import get_object_or_404
 from products.models import Product
 
+
 def bag_contents(request):
+    """
+This function, bag_contents, takes in a 'request' object and returns
+the contents of a bag.
+The request object is assumed to contain information
+about the bag and its contents.
+It is the responsibility of the caller
+to ensure that the request object is properly formatted and contains
+ the necessary information.
+"""
 
     bag_items = []
     total = 0
