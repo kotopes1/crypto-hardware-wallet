@@ -81,7 +81,7 @@ Features to add will be a Blog page with new information regarding Blockchain Te
 ## Data Schema
 
  * [Dbdiagram.io](https://dbdiagram.io/home) is a free online database diagraming tool for developers and data analysts. It uses a code-based user interface, and you can create up to 10 diagrams for free.
- [screen shot](https://github.com/Flow-matic/crypto-hardware-wallet/blob/main/media/schema%20screenshot.png?raw=true)
+ [screen shot]()
 
  ## User story boards
 
