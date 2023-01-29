@@ -1,3 +1,12 @@
+"""
+This code imports the 'path' function from the django.urls module.
+The 'path' function is used to match and route URLs
+in a Django web application.
+It takes in various parameters such as route, view, kwargs, name etc.
+This allows the developer to create specific views for different URL patterns,
+and handle various types of requests accordingly.
+"""
+
 from django.urls import path
 from . import views
 

@@ -34,11 +34,19 @@ class CommentAdmin(admin.ModelAdmin):
     This script is a custom admin class for comment model, which allows for
     additional functionality in the django admin interface when managing
     comments.
-    """ 
+    """
     list_display = ('name', 'body', 'post', 'created_on', 'approved')
     list_filter = ('approved', 'created_on')
     search_fields = ('name', 'email', 'body')
     actions = ['approve_comments']
 
     def approve_comments(self, request, queryset):
+        """
+Approve the selected comments.
+Args:
+        request (HttpRequest): The current request object.
+        queryset (QuerySet): The selected comments to approve.
+Returns:
+        None
+    """
         queryset.update(approved=True)
