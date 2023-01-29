@@ -1,3 +1,21 @@
+"""
+The HttpResponse class in Django's http module is used to
+create an HTTP response.
+This class is used to return content to a web client, such as a browser.
+It can be used to return HTML, JSON, XML, or any other type of content.
+The HttpResponse class is a subclass of `django.http.response.
+StreamingHttpResponse` and it supports the same interface.
+:param content: Content for the response.
+:type content: str, bytes, bytearray, or file-like object.
+:param status: HTTP status code for the response.
+:type status: int
+:param content_type: Content type for the response.
+:type content_type: str
+:return: The HTTP response
+:rtype: HttpResponse
+
+"""
+
 from django.http import HttpResponse
 from django.core.mail import send_mail
 from django.template.loader import render_to_string
@@ -9,6 +27,7 @@ from profiles.models import UserProfile
 
 import json
 import time
+
 
 class StripeWH_Handler:
     """Handle Stripe webhooks"""
@@ -100,7 +119,8 @@ class StripeWH_Handler:
         if order_exists:
             self._send_confirmation_email(order)
             return HttpResponse(
-                content=f'Webhook received: {event["type"]} | SUCCESS: Verified order already in database',
+                content=f'Webhook received: {event["type"]} | SUCCESS: '
+                        'Verified order already in database',
                 status=200)
         else:
             order = None
@@ -145,7 +165,8 @@ class StripeWH_Handler:
                     status=500)
         self._send_confirmation_email(order)
         return HttpResponse(
-            content=f'Webhook received: {event["type"]} | SUCCESS: Created order in webhook',
+            content=f'Webhook received: {event["type"]} | SUCCESS: '
+                    'Created order in webhook',
             status=200)
 
     def handle_payment_intent_payment_failed(self, event):

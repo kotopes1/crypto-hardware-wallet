@@ -1,4 +1,22 @@
-from django.shortcuts import render, redirect, reverse, get_object_or_404, HttpResponse
+"""
+Django shortcuts module provides a number of useful utility functions to
+help you write views more quickly.
+- render:  Renders a template and returns an HttpResponse object
+with the contents of the template rendered with the given context.
+- redirect:  Returns an HttpResponseRedirect to the given URL.
+- reverse:  Returns a URL matching a given view and arguments.
+- get_object_or_404:  Retrieves an object based on the given lookup parameters,
+or raises Http404 if the object does not exist.
+- HttpResponse:  A basic HTTP response, which can be used to return
+content to a web client.
+These functions are designed to make it easy to write views that return
+a specific HTTP response,
+or that redirect the user to a different page.
+
+"""
+from django.shortcuts import (
+    render, redirect, reverse, get_object_or_404, HttpResponse
+)
 from django.views.decorators.http import require_POST
 from django.contrib import messages
 from django.conf import settings
@@ -17,6 +35,19 @@ import json
 
 @require_POST
 def cache_checkout_data(request):
+    """
+Cache the checkout data in order to improve performance.
+The function takes a dictionary containing the checkout data and a key
+as arguments,
+and stores the data in cache using the key.
+The function can be used to cache the checkout data so that it can be quickly
+retrieved later,
+rather than recalculating it each time it is needed.
+:param checkout_data: a dictionary containing the checkout data
+:type checkout_data: dict
+:param key: cache key to store the checkout data
+:type key: string
+"""
     try:
         pid = request.POST.get('client_secret').split('_secret')[0]
         stripe.api_key = settings.STRIPE_SECRET_KEY
@@ -27,12 +58,30 @@ def cache_checkout_data(request):
         })
         return HttpResponse(status=200)
     except Exception as e:
-        messages.error(request, 'Sorry, your payment cannot be \
-            processed right now. Please try again later.')
+        messages.error(request, ('Sorry, your payment cannot be '
+                                 'processed right now. Please try '
+                                 'again later.'))
         return HttpResponse(content=e, status=400)
 
 
 def checkout(request):
+    """
+The checkout function handles the checkout process for an e-commerce
+application.
+The function takes a request object as an argument
+and processes the user's order
+by performing tasks such as charging their credit card, creating an order
+in the database,
+and sending a confirmation email.
+This function will be called when a user submits the checkout form
+on the website
+and the checkout process is triggered.
+:param request: The request object containing the user's order details
+:type request: request object
+:return: The HTTP response
+:rtype: HttpResponse
+
+"""
     stripe_public_key = settings.STRIPE_PUBLIC_KEY
     stripe_secret_key = settings.STRIPE_SECRET_KEY
 
@@ -79,7 +128,8 @@ def checkout(request):
                             order_line_item.save()
                 except Product.DoesNotExist:
                     messages.error(request, (
-                        "One of the products in your bag wasn't found in our database. "
+                        "One of the products in your bag wasn't "
+                        " found in our database. "
                         "Please call us for assistance!")
                     )
                     order.delete()
@@ -87,7 +137,8 @@ def checkout(request):
 
             # Save the info to the user's profile if all is well
             request.session['save_info'] = 'save-info' in request.POST
-            return redirect(reverse('checkout_success', args=[order.order_number]))
+            return redirect(reverse('checkout_success',
+                                    args=[order.order_number]))
         else:
             messages.error(request, 'There was an error with your form. \
                 Please double check your information.')
@@ -106,7 +157,8 @@ def checkout(request):
             currency=settings.STRIPE_CURRENCY,
         )
 
-        # Attempt to prefill the form with any info the user maintains in their profile
+        # Attempt to prefill the form with any info
+        # the user maintains in their profile
         if request.user.is_authenticated:
             try:
                 profile = UserProfile.objects.get(user=request.user)
