@@ -74,8 +74,6 @@ ___
 
 More products will be added at a later date, latest ( Storage ) devices. 
 
-Features to add will be a Blog page with new information regarding Blockchain Technology.
-
 ---
 
 ## Data Schema
