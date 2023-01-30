@@ -158,6 +158,10 @@ A wireframe is a schematic, a blueprint, useful to help you're and your programm
 
 [Subscribe](https://github.com/Flow-matic/crypto-hardware-wallet/blob/main/media/subcribe%20wireframes.png?raw=true)
 
+[Blog Page](https://github.com/Flow-matic/crypto-hardware-wallet/blob/main/media/crypto%20wallets%20blog.png?raw=true)
+
+[Comments Page](https://github.com/Flow-matic/crypto-hardware-wallet/blob/main/media/crypto%20wallets%20blog%201.png?raw=true)
+
 ---
 
 ## [Mailchimp](https://mailchimp.com/en-gb/?currency=GBP)
@@ -230,14 +234,18 @@ manual testing have gone into building the project.
 <br>
 
 **HTML**
-- [W3C HTML Validator](https://validator.w3.org) further testing with html checker needs done as it seems some errors were flagging up Django code {% %}
+- [W3C HTML Validator](https://validator.w3.org)
 
 - Element li not allowed as child of element nav in this context. 
 
 - Mailchimp signup embedded code has also flagged up a few errors.
 
-- A meta element with an http-equiv attribute whose value is X-UA-Compatible. 
-  * Either X-UA-Compatible is not "standard" HTML (FSVO "standard" that involves appearing on a publicly editable wiki page referenced by the specification) or the Validator isn't up to date with the current status of that wiki.
+- A meta element with an http-equiv attribute whose value is X-UA-Compatible.
+
+  * Mentioned on [Stackoverflow](https://stackoverflow.com/questions/14198594/bad-value-x-ua-compatible-for-attribute-http-equiv-on-element-meta)
+    * Either X-UA-Compatible is not "standard" HTML (FSVO "standard" that involves appearing on a publicly editable wiki page referenced by the specification) or the Validator isn't up to date with the current status of that wiki.
+
+      At the time of writing (20130326) X-UA-Compatible appears on the wiki page under a section that states: "The following proposed extensions do not yet conform to all the registration requirements in the HTML spec and are therefore not yet allowed in valid documents." So the validator is correct to reject this value.
 
 **CSS**
 - [W3C CSS Validator](https://jigsaw.w3.org/css-validator/) was used to test all css code, code come back clean with no errors.
@@ -251,11 +259,14 @@ manual testing have gone into building the project.
 **Python**
 - [PEP8 Online](http://pep8online.com/)
 
-In the command line interface the following input was added, (python3 -m flake8) to bring up files with errors. Most errors were ( E501 line too long (81 > 79 characters) at this point in time I didn’t want to adjust my code incase I added more issues.
+In the command line interface the following input was added, (python3 -m flake8) to bring up files with errors.
+Most errors have been resolved, ( E501 line too long characters, have been left in some files, like the env.py file was showing line too long with my ["DATABASE_URL"] = "postgres: ? when i tried to shorting the database code, my website did not function properly, so decided to leave it the way it is for now. at this point in time I didn’t want to adjust my code incase I added more issues.
 
-'django.test.TestCase' imported but unused on various files.
+I chose to ignore any warnings on migration files susch as, (./.vscode/arctictern.py) (./blog/migrations/0001_initial.py). since these are automatically generated files so may ignore style rules for efficiency reasons. Also as developers, usually don't need to touch them so they don't need to be perfectly readable.
 
-More testing will be done at a leter date, to remove any errors. 
+'django.test.TestCase' imported but unused in various files.
+
+Docstring's we’re added to nearly every file that was needed.
 ___
 
 **Email Issues** 
@@ -289,9 +300,25 @@ How?
 
 ___
 
+**Erro pages created for users**
+
+## [400 Bad Request Error](https://github.com/Flow-matic/crypto-hardware-wallet/blob/main/templates/400.html)
+
+  * The HyperText Transfer Protocol (HTTP) 400 Bad Request response status code indicates that the server cannot or will not process the request due to something that is perceived to be a client error (for example, malformed request syntax, invalid request message framing, or deceptive request routing).
+
+## [HTTP 403 Error](https://github.com/Flow-matic/crypto-hardware-wallet/blob/main/templates/403.html)
+
+  * HTTP 403 forbidden errors are caused by an access misconfiguration on the client-side, which means you can usually resolve the issue yourself. A common cause of these errors is the file or folder permission settings, which control who can read, write, and execute the file or folder.
+
 ## [404 Page Not Found Error Page:](https://github.com/Flow-matic/crypto-hardware-wallet/blob/main/media/404%20error%20page.png?raw=true)
 
-  * This error shows when a user types a URL into the browser which does not exist within the app's domain.
+  * The HyperText Transfer Protocol (HTTP) 400 Bad Request response status code indicates that the server cannot or will not process the request due to something that is perceived to be a client error (for example, malformed request syntax, invalid request message framing, or deceptive request routing).
+
+## [500 Internal server error](https://github.com/Flow-matic/crypto-hardware-wallet/blob/main/templates/500.html)
+
+  *  The HyperText Transfer Protocol (HTTP) 500 Internal Server Error server error response code indicates that the server encountered an unexpected condition that prevented it from fulfilling the request.
+     This error response is a generic "catch-all" response. Usually, this indicates the server cannot find a better 5xx error code to response. Sometimes, server administrators log error responses like the 500 status code with more details about the request to prevent the error from happening again in the future.
+
 ---
 
 **Config Vars**
