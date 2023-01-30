@@ -298,6 +298,14 @@ How?
 
  * Disposable email - is a free email service that allows to receive email at a temporary address that self-destructed after a certain time elapses. It is also known by names like : tempmail, 10minutemail, 10minmail, throwaway email, fake-mail , fake email generator, burner mail or trash-mail.
 
+* [Email confirmation has been sent](https://github.com/Flow-matic/crypto-hardware-wallet/blob/main/media/email%20test%201.png?raw=true)
+
+* [Email received](https://github.com/Flow-matic/crypto-hardware-wallet/blob/main/media/email%20test%202.png?raw=true)
+
+* [Please confirm your email](https://github.com/Flow-matic/crypto-hardware-wallet/blob/main/media/email%20test%203.png?raw=true)
+
+* [Email confirmation success and signed in](https://github.com/Flow-matic/crypto-hardware-wallet/blob/main/media/email%20test%204.png?raw=true)
+
 ___
 
 **Erro pages created for users**
