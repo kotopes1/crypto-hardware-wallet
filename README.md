@@ -26,7 +26,7 @@ ___
 | Browse products                                    | purchase what I need                          |
 | Search products                                    | find something specific                       |
 | Filter products                                    | compare the offerings                         |
-| Buy a product                                      | get the parts im looking for                  |
+| Buy a product                                      | get the parts i'm looking for                 |
 | Pay using a card                                   | complete my purchase                          |
 | Create a profile                                   | save my information and review past orders    |
 | See my shopping cart before paying                 | know the cost and content before the purchase |
@@ -148,7 +148,7 @@ When testing stripe payments the links and images above should tell you that eve
 
 The designs you received are called wireframes (sometimes called wires, mockups, or mocks).
 
-A wireframe is a schematic, a blueprint, useful to help you're and your programmers and designers think and communicate about the structure of the software or website your building.
+A wireframe is a schematic, a blueprint, useful to help your and your programmers and designers think and communicate about the structure of the software or website your building.
 
 [Home Page](https://github.com/Flow-matic/crypto-hardware-wallet/blob/main/media/crypto%20wallet%20home.png?raw=true)
 
@@ -262,11 +262,11 @@ manual testing have gone into building the project.
 In the command line interface the following input was added, (python3 -m flake8) to bring up files with errors.
 Most errors have been resolved, ( E501 line too long characters, have been left in some files, like the env.py file was showing line too long with my ["DATABASE_URL"] = "postgres: ? when i tried to shorting the database code, my website did not function properly, so decided to leave it the way it is for now. at this point in time I didn’t want to adjust my code incase I added more issues.
 
-I chose to ignore any warnings on migration files susch as, (./.vscode/arctictern.py) (./blog/migrations/0001_initial.py). since these are automatically generated files so may ignore style rules for efficiency reasons. Also as developers, usually don't need to touch them so they don't need to be perfectly readable.
+I chose to ignore any warnings on migration files such as, (./.vscode/arctictern.py) (./blog/migrations/0001_initial.py). since these are automatically generated files so may ignore style rules for efficiency reasons. Also as developers, usually don't need to touch them so they don't need to be perfectly readable.
 
 'django.test.TestCase' imported but unused in various files.
 
-Docstring's we’re added to nearly every file that was needed.
+Docstring's were added to nearly every file that was needed.
 ___
 
 **Email Issues** 
@@ -308,7 +308,7 @@ How?
 
 ___
 
-**Erro pages created for users**
+**Error pages created for users**
 
 ## [400 Bad Request Error](https://github.com/Flow-matic/crypto-hardware-wallet/blob/main/templates/400.html)
 
