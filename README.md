@@ -14,7 +14,7 @@ The Website is designed and based on digital freedom, securing the new disruptiv
 ---
 
 ## UX
-This project is my fifth and final Milestone Project in the Code Institute's Full-stack Development program. I decided to create a website based on my passions!. Blockchain Technology. The E-commerce site has many features for customers and returning customers, from browsing the latest digital wallets, to purchasing various products, also learning about Blockchain and cryptocurrency's.
+This project is my fifth and final Milestone Project in the Code Institute's Full-stack Development program. I decided to create a website based on my passions!. Blockchain Technology. The E-commerce site has many features for customers and returning customers, from browsing the latest digital wallets, to purchasing various products, also learning about Blockchain and cryptocurrency's with a added Blog page.
 ___
 <br>
 
@@ -55,7 +55,7 @@ ___
 | **As a returning customer I would like to** | **External links to learn provided**             |
 | ------------------------------------------- | ------------------------------------------------ |
 | Learn about Blockchain Technology           | Drop down learning on nav-bar                    |
-| Read the latest news on cryptocurrency      | News articles provided for users                 |
+| Read the latest news on cryptocurrency      | News articles provided for users in the Blog     |
 | Buy and store cryptocurrency safely         | Information is provided                          |
 
 ### User Stories Errors 
@@ -86,7 +86,7 @@ More products will be added at a later date, latest ( Storage ) devices.
  * User stories provide a way to simply and plainly describe user action and intent when interacting with a system (typically a user interface). In considering both the steps a user takes, and their motivations, in a narrative form we aim to empathize with our users while delivering a product or service.
 
  * here are the user stories I created with Github. 
- * [Story board 1](https://github.com/users/Flow-matic/projects/9/views/1) 
+ * [Story board](https://github.com/users/Flow-matic/projects/9/views/1) 
 
 ---
 
